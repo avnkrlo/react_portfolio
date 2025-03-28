@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function NavbarComponent() {
+export default function NavbarComponent() {
     return ( 
         <nav className="bg-white border-gray-200 dark:bg-gray-900">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -61,8 +61,6 @@ function NavbarComponent() {
                     </ul>
                 </div>
             </div>
-        </nav>    
+        </nav>  
     );
 }
-
-export default NavbarComponent;

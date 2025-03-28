@@ -1,9 +1,7 @@
-function Work() {
+export default function Work() {
     return (
-        <>
-            <h1 className="mt-20">Work</h1>
-        </>
-    );
+        <div>
+            <h1>Work</h1>
+        </div>
+    )    
 }
-
-export default Work;

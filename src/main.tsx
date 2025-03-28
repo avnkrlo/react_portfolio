@@ -9,31 +9,38 @@ import Work from './pages/Work.tsx';
 import Project from './pages/Project.tsx';
 import About from './pages/About.tsx';
 import Booking from './pages/Booking.tsx';
+import NotFound from './pages/NotFound.tsx'
 
 const router = createBrowserRouter([
   {
     path: "/react_portfolio/",
     element: <App/>,
+    errorElement: <NotFound/>,
     children: [
       {
         path: "/react_portfolio/",
-        element: <Home/>
+        element: <Home/>,
+        errorElement: <NotFound/>,
       },
       {
         path: "/react_portfolio/work",
-        element: <Work/>
+        element: <Work/>,
+        errorElement: <NotFound/>,
       },
       {
         path: "/react_portfolio/project",
-        element: <Project/>
+        element: <Project/>,
+        errorElement: <NotFound/>,
       },
       {
         path: "/react_portfolio/about",
-        element: <About/>
+        element: <About/>,
+        errorElement: <NotFound/>,
       },
       {
         path: "/react_portfolio/booking",
-        element: <Booking/>
+        element: <Booking/>,
+        errorElement: <NotFound/>,
       },
     ]
   }
