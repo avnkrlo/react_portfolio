@@ -1,7 +1,7 @@
 function Work() {
     return (
         <>
-            <h1>Work</h1>
+            <h1 className="mt-20">Work</h1>
         </>
     );
 }
