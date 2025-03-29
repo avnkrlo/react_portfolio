@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import Jumbotron from "./components/Jumbotron";
 import NavbarComponent from "./components/NavbarComponent";
 import { Outlet } from "react-router-dom";
 
@@ -5,7 +7,9 @@ function App() {
   return (
     <div>
       <NavbarComponent/>
-      <Outlet/>
+        <Jumbotron/>
+        <Outlet/>
+      <Footer/>
     </div>
   );
 }
