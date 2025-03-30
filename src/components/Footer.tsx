@@ -67,7 +67,7 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">General</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/react_portfolio/" className="hover:underline">Home</Link>
+                                    <Link to="/react_portfolio/home" className="hover:underline">Home</Link>
                                 </li>
 
                                 <li className="mb-4">
@@ -78,7 +78,7 @@ export default function Footer() {
                                     <Link to="/react_portfolio/project" className="hover:underline">Project</Link>
                                 </li>
 
-                                <li className="mb-4">
+                                <li>
                                     <Link to="/react_portfolio/about" className="hover:underline">About</Link>
                                 </li>
                             </ul>
@@ -88,11 +88,11 @@ export default function Footer() {
                             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Website</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="mb-4">
-                                    <Link to="/react_portfolio/" className="hover:underline ">Github</Link>
+                                    <Link to="/react_portfolio/links" className="hover:underline ">Links</Link>
                                 </li>
 
                                 <li className="mb-4">
-                                    <Link to="/react_portfolio/" className="hover:underline">Discord</Link>
+                                    <Link to="/react_portfolio/booking" className="hover:underline">Book a Call</Link>
                                 </li>
 
                                 <li className="mb-4">
@@ -134,7 +134,7 @@ export default function Footer() {
                 <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 
-                            <Link to="https://flowbite.com/" className="hover:underline"> Aivan Karlo Geronimo</Link>. All Rights Reserved.
+                            <Link to="/react_portfolio/" className="hover:underline"> Aivan Karlo Geronimo</Link>. All Rights Reserved.
                         </span>
                     </div>
                 </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Jumbotron() {
     return (
         <>
-            <section className="relative bg-fixed bg-gray-700 bg-center bg-no-repeat bg-cover bg-blend-multiply" style={{backgroundImage:" url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg'); height: 700px;"}}>
+            <section className="relative bg-fixed bg-gray-700 bg-center bg-no-repeat bg-cover bg-blend-multiply" style={{backgroundImage:"url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg'), height: 700px"}}>
                 <div className="max-w-screen-xl px-4 py-24 mx-auto lg:py-56">
                     <p className="mb-4 text-4xl font-extrabold text-white uppercase sm:text-3xl md:text-4xl lg:text-5xl">
                     Our business is to guarantee the success of yours.
