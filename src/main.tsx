@@ -9,7 +9,7 @@ import Work from './pages/Work.tsx';
 import Project from './pages/Project.tsx';
 import About from './pages/About.tsx';
 import Booking from './pages/Booking.tsx';
-import LinksPage from './pages/LinksPage.tsx';
+import Contact from './pages/Contact.tsx';
 import NotFound from './pages/NotFound.tsx'
 
 const router = createBrowserRouter([
@@ -44,8 +44,8 @@ const router = createBrowserRouter([
         errorElement: <NotFound/>,
       },
       {
-        path: "/react_portfolio/links",
-        element: <LinksPage/>,
+        path: "/react_portfolio/contact",
+        element: <Contact/>,
         errorElement: <NotFound/>,
       },
     ]

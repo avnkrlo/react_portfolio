@@ -109,19 +109,19 @@ export default function Footer() {
                             <h2 className="mb-6 text-md font-semibold text-gray-900 dark:text-white">Feel free to reach out to me on my socials and my email below.</h2>
                             <ul className="text-gray-500 dark:text-gray-400 font-medium">
                                 <li className="flex items-center gap-2 mb-4">
-                                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24">
-                                        <path fill-rule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clip-rule="evenodd"/>
+                                    <svg className="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                        <path fill="currentColor" fillRule="evenodd" d="M11.906 1.994a8.002 8.002 0 0 1 8.09 8.421 7.996 7.996 0 0 1-1.297 3.957.996.996 0 0 1-.133.204l-.108.129c-.178.243-.37.477-.573.699l-5.112 6.224a1 1 0 0 1-1.545 0L5.982 15.26l-.002-.002a18.146 18.146 0 0 1-.309-.38l-.133-.163a.999.999 0 0 1-.13-.202 7.995 7.995 0 0 1 6.498-12.518ZM15 9.997a3 3 0 1 1-5.999 0 3 3 0 0 1 5.999 0Z" clipRule="evenodd"/>
                                     </svg>
                                     <span>Airport Road, Abu Dhabi, United Arab Emirates</span>
                                 </li>
 
                                 <li className="flex items-center gap-2">
                                     <svg className="w-5 h-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#1976D2">
-                                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                                        <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
+                                        <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                                         <g id="SVGRepo_iconCarrier"> 
-                                            <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#1976D2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                                            <rect x="3" y="5" width="18" height="14" rx="2" stroke="#1976D2" stroke-width="2" stroke-linecap="round"></rect> 
+                                            <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#1976D2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
+                                            <rect x="3" y="5" width="18" height="14" rx="2" stroke="#1976D2" strokeWidth="2" strokeLinecap="round"></rect> 
                                         </g>
                                     </svg>
                                     <Link to="mailto:aivan.karlo28@gmail.com?subject=Let%27s catch up and talk about opportunity!" className="text-blue-500 hover:underline">aivan.karlo28@gmail.com</Link>
