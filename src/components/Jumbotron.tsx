@@ -4,7 +4,7 @@ import Clipboard from "./Clipboard";
 export default function Jumbotron() {
     return (
         <>
-            <section className="relative bg-fixed bg-gray-700 bg-center bg-no-repeat bg-cover bg-blend-multiply" style={{backgroundImage:"url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg'), height: 700px"}}>
+            <section className="relative bg-fixed bg-gray-700 bg-center bg-no-repeat bg-cover bg-blend-multiply bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')]">
                 <div className="place-items-center max-w-screen-xl px-4 py-24 lg:py-56">
                     <p className="mb-4 text-4xl font-extrabold text-white uppercase sm:text-3xl md:text-4xl lg:text-5xl">
                     Hi, My name is Aivan Karlo Geronimo

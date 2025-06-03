@@ -1,7 +1,7 @@
 export default function Project() {
     return (
         <>
-            <div>
+            <div className="mt-15">
                 <div className="pt-5 text-white">
                     Project
                 </div>
