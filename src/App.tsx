@@ -1,13 +1,13 @@
 import Footer from "./components/Footer";
 import NavbarComponent from "./components/NavbarComponent";
 import { Outlet } from "react-router-dom";
-import Home from "./pages/Home";
+// import Jumbotron from "./components/Jumbotron";
 
 function App() {
   return (
     <div className="bg-black">
       <NavbarComponent/>
-        <Home/>
+        {/* <Jumbotron/> */}
         <Outlet/>
       <Footer/>
     </div>
