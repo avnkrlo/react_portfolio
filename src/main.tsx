@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './App.css'
 import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-
+import Landing from './pages/Landing.tsx'
 import Home from './pages/Home.tsx';
 import Work from './pages/Work.tsx';
 import Project from './pages/Project.tsx';
@@ -18,6 +18,10 @@ const router = createBrowserRouter([
     element: <App/>,
     errorElement: <NotFound/>,
     children: [
+      {
+        index: true,
+        element: <Landing/>,
+      },
       {
         path: "/react_portfolio/home",
         element: <Home/>,
