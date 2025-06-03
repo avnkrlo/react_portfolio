@@ -1,7 +1,11 @@
 export default function Project() {
     return (
         <>
-            <h1>Project</h1>
+            <div className="mt-15">
+                <div className="pt-5 text-white">
+                    Project
+                </div>
+            </div>
         </>
     );
 }
