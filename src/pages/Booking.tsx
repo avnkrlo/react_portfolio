@@ -3,8 +3,8 @@ import Calendar from "../components/Calendar";
 export default function Booking() {
     return (
         <>
-            <div className="mt-15">
-                <div className="pt-8">
+            <div>
+                <div className="flex flex-col items-center justify-center min-h-screen max-w-screen-xl mx-auto text-center">
                     <Calendar/>
                 </div>
             </div>
