@@ -2,10 +2,12 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import { Work, School, Star } from '@mui/icons-material';
 import  ConvergeLogo  from '../assets/work_logo/converge.png';
+import KhidmahLogo from '../assets/work_logo/khidmah.png';
+import MonheimLogo from '../assets/work_logo/monheim.png';
+import VnlbrwLogo from '../assets/work_logo/vnlbrw.png';
 
 const workContentStyle = {
-  background: '#1e40af',
-  color: '#fff',
+  background: '#2b6cb0'
 };
 
 const workArrowStyle = {
@@ -21,33 +23,48 @@ export default function AlternateTimeline() {
   return (
     <VerticalTimeline lineColor="#3b82f6">
       <VerticalTimelineElement
-        className="text-black dark:text-white"
         contentStyle={workContentStyle}
         contentArrowStyle={workArrowStyle}
         date="May 2025 - Present"
         iconStyle={{ background: '#1e40af', color: '#fff' }}
         icon={<Work />}
       >
-        <h3 className="font-bold text-lg"></h3>
-        <h4 className="italic">Concierge/Receptionist</h4>
-        <p>UAE, Abu Dhabi</p>
+        <div className="flex items-center gap-4 mb-2">
+          <img
+            src={KhidmahLogo}
+            alt="khidmah"
+            className="w-18 h-18 object-contain rounded min-w-[3rem]"
+          />
+          <div className="text-black dark:text-white">
+            <h3 className="font-bold text-lg">Concierge/Receptionist</h3>
+            <h4 className="italic">UAE, Abu Dhabi</h4>
+          </div>
+        </div>
+        <p>TBD</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        className="text-black dark:text-white"
         contentStyle={workContentStyle}
         contentArrowStyle={workArrowStyle}
         date="January 2023 - February 2025"
         iconStyle={{ background: '#1e40af', color: '#fff' }}
         icon={<Work />}
       >
-        <h3 className="font-bold text-lg">IT Technical Support</h3>
-        <h4 className="italic">Taytay, Rizal, Philippines</h4>
+        <div className="flex items-center gap-4 mb-2">
+          <img
+            src={MonheimLogo}
+            alt="monheim"
+            className="w-18 h-18 object-contain rounded min-w-[3rem]"
+          />
+          <div className='text-black dark:text-white'>
+            <h3 className="font-bold text-lg">IT Technical Support</h3>
+            <h4 className="italic">Taytay, Rizal, Philippines</h4>
+          </div>
+        </div>
         <p>TBD</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        className="text-black dark:text-white"
         contentStyle={workContentStyle}
         contentArrowStyle={workArrowStyle}
         date="October 2021 - January 2023"
@@ -56,10 +73,11 @@ export default function AlternateTimeline() {
       >
         <div className="flex items-center gap-4 mb-2">
           <img
-            src={ ConvergeLogo } alt="converge"
-            className="w-12 h-12 object-contain rounded"
+            src={ConvergeLogo}
+            alt="converge"
+            className="w-18 h-18 object-contain rounded min-w-[3rem]"
           />
-          <div>
+          <div className='text-black dark:text-white'>
             <h3 className="font-bold text-lg">Enterprise Support Engineer</h3>
             <h4 className="italic">Pasig, NCR, Philippines</h4>
           </div>
@@ -68,20 +86,27 @@ export default function AlternateTimeline() {
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        className="text-black dark:text-white"
         contentStyle={workContentStyle}
         contentArrowStyle={workArrowStyle}
         date="September 2020 - March 2021"
         iconStyle={{ background: '#1e40af', color: '#fff' }}
         icon={<Work />}
       >
-        <h3 className="font-bold text-lg">Barista/Service Crew</h3>
-        <h4 className="italic">Pasig, NCR, Philippines</h4>
+        <div className="flex items-center gap-4 mb-2">
+          <img
+            src={VnlbrwLogo}
+            alt="vnlbrw"
+            className="w-18 h-18 object-contain rounded min-w-[3rem]"
+          />
+          <div>
+            <h3 className="font-bold text-lg">Barista/Service Crew</h3>
+            <h4 className="italic">Pasig, NCR, Philippines</h4>
+          </div>
+        </div>
         <p>TBD</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        className="text-black dark:text-white"
         contentStyle={educationStyle}
         contentArrowStyle={{ borderRight: '7px solid #be185d' }}
         date="March 2020"
@@ -93,20 +118,27 @@ export default function AlternateTimeline() {
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        className="text-black dark:text-white"
         contentStyle={educationStyle}
         contentArrowStyle={{ borderRight: '7px solid #be185d' }}
         date="July 2019 - September 2019"
         iconStyle={{ background: '#be185d', color: '#fff' }}
         icon={<School />}
       >
-        <h3 className="font-bold text-lg">IT - Internship</h3>
-        <h4 className="italic">Taytay, Rizal, Philippines</h4>
+        <div className="flex items-center gap-4 mb-2">
+          <img
+            src={MonheimLogo}
+            alt="monheim"
+            className="w-18 h-18 object-contain rounded min-w-[3rem]"
+          />
+          <div>
+            <h3 className="font-bold text-lg">IT - Internship</h3>
+            <h4 className="italic">Taytay, Rizal, Philippines</h4>
+          </div>
+        </div>
         <p>TBD</p>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
-        className="text-black dark:text-white"
         contentStyle={educationStyle}
         contentArrowStyle={{ borderRight: '7px solid #be185d' }}
         date="March 2015"

@@ -4,7 +4,7 @@ import logo from '../assets/AKG-ICON.png'
 
 export default function NavbarComponent() {
   return (
-    <Navbar fluid rounded>
+    <Navbar fluid rounded id="navbar-sticky">
       <NavbarBrand href="/react_portfolio/">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo" />
       </NavbarBrand>
@@ -16,7 +16,7 @@ export default function NavbarComponent() {
         <NavbarToggle />
       </div>
 
-      <NavbarCollapse id="navbar-sticky">
+      <NavbarCollapse>
         <NavLink className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
             to="/react_portfolio/home">Home</NavLink>
         <NavLink className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
