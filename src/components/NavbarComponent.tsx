@@ -4,7 +4,7 @@ import logo from '../assets/AKG-ICON.png'
 
 export default function NavbarComponent() {
   return (
-    <Navbar fluid rounded id="navbar-sticky">
+    <Navbar fluid rounded className="sticky top-0 z-50 bg-white dark:bg-gray-900">
       <NavbarBrand href="/react_portfolio/">
         <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo" />
       </NavbarBrand>

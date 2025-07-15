@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Contact() {
     return (
         <>
-            <div className="flex flex-col items-center justify-center min-h-screen max-w-screen-xl mx-auto text-center" >
+            <div className="flex flex-col items-center justify-center min-h-screen max-w-screen-xl mx-auto text-center text-white">
                 <ul className="grid place-content-center pt-8 w-auto">
                     <li className="mb-4">
                         <Link to="https://www.linkedin.com/in/aivangeronimo/" target="_blank" rel="noopener noreferrer" 
@@ -29,7 +29,7 @@ export default function Contact() {
                     <li className="mb-4">
                         <Link to="https://www.sololearn.com/en/profile/486401" target="_blank" rel="noopener noreferrer" 
                             className="flex items-center justify-center gap-4 p-5 bg-white rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                                <svg className="w-6 h-6 text-gray-800 dark:text-white" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="#FFFFFF" stroke="#FFFFFF">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-white" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                                     <g id="SVGRepo_iconCarrier">
@@ -46,7 +46,7 @@ export default function Contact() {
                     <li className="mb-4">
                         <Link to="https://t.me/avngrnmo" target="_blank" rel="noopener noreferrer" 
                             className="flex items-center justify-center gap-4 p-5 bg-white rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                                <svg className="w-6 h-6 text-gray-800 dark:text-white" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#FFFFFF">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-white" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                                     <g id="SVGRepo_iconCarrier">
@@ -72,7 +72,7 @@ export default function Contact() {
                     <li>
                         <Link to="https://www.reddit.com/user/weezywiz29/" target="_blank" rel="noopener noreferrer" 
                             className="flex items-center justify-center gap-4 p-5 bg-white rounded-lg shadow-sm hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                                <svg className="w-6 h-6 text-gray-800 dark:text-white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 429.709 429.709" xmlSpace="preserve" fill="#FFFFFF" stroke="#FFFFFF">
+                                <svg className="w-6 h-6 text-gray-800 dark:text-white" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 429.709 429.709" xmlSpace="preserve" fill="currentColor">
                                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g><g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                                     <g id="SVGRepo_iconCarrier"> 
                                         <g> 

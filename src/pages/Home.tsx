@@ -1,4 +1,5 @@
 import GitHubCalendar from "../components/GithubCalendar";
+import SkillCards from "../components/SkillCards";
 
 export default function Home() {
     return (
