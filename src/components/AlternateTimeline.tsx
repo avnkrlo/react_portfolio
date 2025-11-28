@@ -30,16 +30,14 @@ export default function AlternateTimeline() {
             alt="Khidmah Logo"
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
-          <h3 className="text-lg sm:text-xl font-semibold text-white">Concierge/Receptionist</h3>
-          <p className="italic text-gray-400 text-sm sm:text-base">UAE, Abu Dhabi</p>
+          <h3 className="text-lg sm:text-xl font-semibold text-white">Concierge</h3>
+          <p className="italic text-gray-400 text-sm sm:text-base">Abu Dhabi, United Arab Emirates</p>
         </div>
 
         <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
-          <li>Handled registration and verification of guests, deliveries, and contractors through the building system.</li>
-          <li>Confirmed visitor legitimacy with homeowners or tenants to ensure proper access control.</li>
-          <li>Coordinated with security during viewings to enforce building policies consistently.</li>
-          <li>Addressed resident complaints professionally and escalated concerns to management.</li>
-          <li>Prepared and submitted routine reports in line with supervisor requirements.</li>
+          <li>Managed digital visitor management system for controlled access and documented system issues.</li>
+          <li>Logged minor support requests and escalated building system malfunctions.</li>
+          <li>Contributed to smooth operations by coordinating with different building teams to ensure high satisfactory rate of building residents.</li>
         </ul>
       </VerticalTimelineElement>
 
@@ -64,14 +62,14 @@ export default function AlternateTimeline() {
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
           <h3 className="text-lg sm:text-xl font-semibold text-white">IT Technical Support</h3>
-          <p className="italic text-gray-400 text-sm sm:text-base">Taytay, Rizal, Philippines</p>
+          <p className="italic text-gray-400 text-sm sm:text-base">Taytay, Philippines</p>
         </div>
         <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
-          <li>Monitored and tracked IT assets to ensure accountability and system readiness.</li>
-          <li>Onboarded new employees: assigned laptops, enrolled biometrics, and provided asset usage guidelines.</li>
-          <li>Provided on-site support for desktop hardware: replaced/install parts (CPU, RAM, SSD, GPU, PSU, printers, etc.).</li>
-          <li>Maintained key business apps including Microsoft Office, Outlook, Teams, and VPNs.</li>
-          <li>Worked with developers to align server specs with project deployment requirements.</li>
+          <li>Provided Tier 1 and Tier 2 desktop support for 200+ employees, resolving 10–20 service tickets daily.</li>
+          <li>Set up and replace faulty desktop hardware including SSDs, RAM, power supplies, hard drives, motherboards, monitors, mice, keyboards, printers and cables.</li>
+          <li>Coordinated with vendors for upcoming projects system requirements and warranty claims.</li>
+          <li>Delivered onboarding and IT orientation for 50+ new users, email, and user accounts.</li>
+          <li>Supported Microsoft 365 applications (Outlook, Teams, Excel), achieving a 95% end-user satisfaction rate.</li>
         </ul>
       </VerticalTimelineElement>
 
@@ -95,16 +93,15 @@ export default function AlternateTimeline() {
             alt="converge"
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
-          <h3 className="text-lg sm:text-xl font-semibold text-white">Enterprise Support Engineer</h3>
-          <p className="italic text-gray-400 text-sm sm:text-base">Pasig, NCR, Philippines</p>
+          <h3 className="text-lg sm:text-xl font-semibold text-white">L1 Enterprise Support Engineer</h3>
+          <p className="italic text-gray-400 text-sm sm:text-base">Pasig, Philippines</p>
         </div>
         <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
-          <li>Delivered Tier 1 tech support to corporate clients via calls and email per SLA.</li>
-          <li>Managed 50–100 daily tickets (150–200 during outages); logged and escalated via ticketing system.</li>
-          <li>Coordinated with field teams to schedule Fiber repairs and estimate restoration timelines.</li>
-          <li>Informed clients of outages during typhoons and other disruptions.</li>
-          <li>Handled modem-level (Zyxel) troubleshooting; escalated beyond demarcation point.</li>
-          <li>Contributed to internal troubleshooting guides and improved support quality.</li>
+          <li>Created and responded to 50–100 service requests daily related to internet connectivity, whether slow, intermittent or no connection.</li>
+          <li>Accurately logged incidents, attached photos of monitoring taken, and escalated to proper team via OTRS and Viber if customer issue persists.</li>
+          <li>Communicated emergency outages full details to affected clients including actions taken by field engineers and estimated time of restoration.</li>
+          <li>Collaborated with field engineers and NOC to dispatch support and restore fiber internet services, reducing downtime by 25%.</li>
+          <li>Assisting clients through the standard documented troubleshooting procedure, improving first-call resolution rates.</li>
         </ul>
       </VerticalTimelineElement>
 
@@ -129,10 +126,13 @@ export default function AlternateTimeline() {
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
           <h3 className="text-lg sm:text-xl font-semibold text-white">Barista/Service Crew</h3>
-          <h4 className="italic text-gray-400 text-sm sm:text-base">Pasig, NCR, Philippines</h4>
+          <h4 className="italic text-gray-400 text-sm sm:text-base">Pasig, Philippines</h4>
         </div>
-        <ul>
-          <li>TBD</li>
+        <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
+          <li>Managing supplies strictly ensuring first in, first out & coordinating with the shop owner for low level supplies.</li>
+          <li>Take customer orders, suggests best sellers, prepare food & specialty beverages.</li>
+          <li>Handles cash and process payments accurately.</li>
+          <li>Maintain cleanliness of the counter, dining area, and equipment.</li>
         </ul>
       </VerticalTimelineElement>
 
