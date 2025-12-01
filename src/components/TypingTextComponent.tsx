@@ -66,7 +66,7 @@ function TypingTextComponent({
   }, [controls]);
 
   return (
-    <div className="w-full h-full flex items-center justify-center bg-transparent">
+    <div className="bg-transparent">
       <div className="text-4xl font-mono text-white italic">
         {currentText}
         <motion.span animate={controls}>|</motion.span>
