@@ -2,7 +2,7 @@ import { motion, useAnimationControls } from "framer-motion";
 import { useEffect, useState } from "react";
 
 function TypingTextComponent({
-  words = ["Aivan Karlo", "Software Engineer", "IT Support"],
+  words = ["I'm Aivan Karlo", "a Software Engineer", "an IT Support"],
   typingSpeed = 200,
   deleteSpeed = 80,
   delayBetweenWords = 1000,
