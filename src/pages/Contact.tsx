@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Contact() {
     return (
         <>
-            <div className="flex flex-col items-center justify-center min-h-screen max-w-screen-xl mx-auto text-center text-white">
+            <div className="flex flex-col items-center justify-center min-h-screen max-w-7xl mx-auto text-center text-white">
                 <ul className="grid place-content-center pt-8 w-auto">
                     <li className="mb-4">
                         <Link to="https://www.linkedin.com/in/aivangeronimo/" target="_blank" rel="noopener noreferrer" 
