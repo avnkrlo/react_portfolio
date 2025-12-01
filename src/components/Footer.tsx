@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <>
             <footer className="mt-10 bg-white dark:bg-gray-900">
-                <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+                <div className="mx-auto w-full max-w-7xl p-4 py-6 lg:py-8">
                     <div className="md:flex md:justify-between">
 
                     <div className="mb-6 md:mb-0 gap-8">
@@ -70,9 +70,9 @@ export default function Footer() {
                                     <Link to="/react_portfolio/home" className="hover:underline">Home</Link>
                                 </li>
 
-                                <li className="mb-4">
+                                {/* <li className="mb-4">
                                     <Link to="/react_portfolio/work" className="hover:underline">Work</Link>
-                                </li>
+                                </li> */}
 
                                 <li className="mb-4">
                                     <Link to="/react_portfolio/project" className="hover:underline">Project</Link>
