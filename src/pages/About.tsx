@@ -1,10 +1,12 @@
 import AlternateTimeline from "../components/AlternateTimeline";
+import AvatarComponent from "../components/AvatarComponent";
 
 export default function About() {
     return (
         <>
             <div>
                 <div className="flex flex-col items-center justify-center min-h-screen max-w-7xl mx-auto text-center text-white">
+                    <AvatarComponent/>
                     <AlternateTimeline/>
                 </div>
             </div>
