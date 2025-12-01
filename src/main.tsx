@@ -5,7 +5,7 @@ import App from './App.tsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Landing from './pages/Landing.tsx'
 import Home from './pages/Home.tsx';
-import Work from './pages/Work.tsx';
+// import Work from './pages/Work.tsx';
 import Project from './pages/Project.tsx';
 import About from './pages/About.tsx';
 import Booking from './pages/Booking.tsx';
@@ -27,11 +27,11 @@ const router = createBrowserRouter([
         element: <Home/>,
         errorElement: <NotFound/>,
       },
-      {
-        path: "/react_portfolio/work",
-        element: <Work/>,
-        errorElement: <NotFound/>,
-      },
+      // {
+      //   path: "/react_portfolio/work",
+      //   element: <Work/>,
+      //   errorElement: <NotFound/>,
+      // },
       {
         path: "/react_portfolio/project",
         element: <Project/>,
