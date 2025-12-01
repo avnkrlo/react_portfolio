@@ -98,10 +98,6 @@ export default function Footer() {
                                 <li className="mb-4">
                                     <Link to="/react_portfolio/" className="hover:underline">Discord</Link>
                                 </li>
-
-                                <li>
-                                    <Link to="/react_portfolio/" className="hover:underline">Discord</Link>
-                                </li>
                             </ul>
                         </div>
 
