@@ -1,5 +1,6 @@
 import Jumbotron from "../components/Jumbotron";
 import SkillCards from "../components/SkillCards";
+import GitHubCalendar from "../components/GithubCalendar";
 
 function Landing() {
   return (
@@ -7,6 +8,8 @@ function Landing() {
       <Jumbotron />
 
       <SkillCards/>
+
+      <GitHubCalendar/>
     </div>
   );
 }

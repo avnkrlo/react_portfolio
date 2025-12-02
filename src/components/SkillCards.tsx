@@ -70,7 +70,7 @@ export default function SkillsSection() {
         {skills.map((skill, index) => (
           <div
             key={index}
-            className="bg-gradient-to-br from-white/60 to-gray-100/40 dark:from-slate-800 dark:to-slate-700 rounded-xl p-5 shadow-md hover:shadow-xl hover:scale-[1.03] transition-all duration-300 ease-in-out relative overflow-hidden"
+            className="bg-linear-to-br from-white/60 to-gray-100/40 dark:from-slate-800 dark:to-slate-700 rounded-xl p-5 shadow-md hover:shadow-xl hover:scale-[1.03] transition-all duration-300 ease-in-out relative overflow-hidden"
           >
             <div className="absolute top-4 right-4 text-2xl">{skill.icon}</div>
             <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
