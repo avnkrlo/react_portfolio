@@ -10,9 +10,13 @@ export default function NavbarComponent() {
       </NavbarBrand>
 
       <div className="flex md:order-2">
-            <Link to="/react_portfolio/booking" className="items-center px-1.5 py-1.5 text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg center-center hover:text-white sm:ms-4 hover:bg-transparent focus:ring-4 focus:ring-blue-700"
-                >Book a Call
-            </Link>
+          <Link to="/react_portfolio/booking" className="items-center px-1.5 py-1.5 text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg center-center hover:text-white sm:ms-4 hover:bg-transparent focus:ring-4 focus:ring-blue-700"
+              >Download CV
+          </Link>
+
+          <Link to="/react_portfolio/booking" className="items-center px-1.5 py-1.5 text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg center-center hover:text-white sm:ms-4 hover:bg-transparent focus:ring-4 focus:ring-blue-700"
+              >Book a Call
+          </Link>
         <NavbarToggle />
       </div>
 
