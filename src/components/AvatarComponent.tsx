@@ -1,5 +1,5 @@
 import { Avatar } from "flowbite-react";
-import photo from '../assets/Aivan.png';
+import photo from '../assets/Aivan.jpg';
 
 export default function AvatarComponent() {
     return (
