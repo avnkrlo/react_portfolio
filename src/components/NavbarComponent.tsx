@@ -6,31 +6,35 @@ import BtnDownloadCV from "./BtnDownloadCV";
 export default function NavbarComponent() {
   return (
     <Navbar fluid rounded className="sticky top-0 z-50 bg-white dark:bg-gray-900">
-      <NavbarBrand href="/react_portfolio/">
-        <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo"/>
-      </NavbarBrand>
+      <div className="w-full flex justify-between items-center">
+        <NavbarBrand href="/react_portfolio/">
+          <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo"/>
+        </NavbarBrand>
 
-      <div className="flex md:order-2">
-          <Link to="/react_portfolio/booking" className="items-center px-1.5 py-2 text-md text-center text-white sm:ms-4"
-              >Book a Call
-          </Link>
-          
-          <BtnDownloadCV/>
-        <NavbarToggle />
+        <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
+          <NavbarCollapse className="mx-auto">
+            <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                to="/react_portfolio/">Home</NavLink>
+            {/* <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                to="/react_portfolio/work">Work</NavLink> */}
+            <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                to="/react_portfolio/project">Projects</NavLink>
+            <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                to="/react_portfolio/about">About</NavLink>
+            <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                to="/react_portfolio/contact">Contact</NavLink>
+          </NavbarCollapse>
+        </div>
+
+        <div className="flex md:order-2">
+            <Link to="/react_portfolio/booking" className="items-center px-1.5 py-2 text-md text-center text-white sm:ms-4"
+                >Book a Call
+            </Link>
+            
+            <BtnDownloadCV/>
+          <NavbarToggle />
+        </div>
       </div>
-
-      <NavbarCollapse className="mx-auto">
-        <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            to="/react_portfolio/">Home</NavLink>
-        {/* <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            to="/react_portfolio/work">Work</NavLink> */}
-        <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            to="/react_portfolio/project">Projects</NavLink>
-        <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            to="/react_portfolio/about">About</NavLink>
-        <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-            to="/react_portfolio/contact">Contact</NavLink>
-      </NavbarCollapse>
     </Navbar>
   );
 }
