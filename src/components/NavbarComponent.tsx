@@ -1,5 +1,6 @@
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarToggle } from "flowbite-react";
 import { Link, NavLink } from "react-router-dom";
+import { HiOutlineDocumentDownload } from "react-icons/hi";
 import logo from '../assets/AKG-ICON.png'
 import BtnDownloadCV from "./BtnDownloadCV";
 
