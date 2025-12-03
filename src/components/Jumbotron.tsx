@@ -27,10 +27,6 @@ export default function Jumbotron() {
                     </div>
 
                     <div className="w-full m-5">
-                        <BtnDownloadCV/>
-                    </div>
-
-                    <div className="w-full m-5">
                         <Clipboard/>
                     </div>
                 </div>
