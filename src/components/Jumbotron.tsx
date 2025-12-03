@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import Clipboard from "./Clipboard";
 import TypingTextComponent from "./TypingTextComponent";
-import BtnDownloadCV from "./BtnDownloadCV";
 
 export default function Jumbotron() {
     return (
