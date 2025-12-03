@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Clipboard from "./Clipboard";
 import TypingTextComponent from "./TypingTextComponent";
+import BtnDownloadCV from "./BtnDownloadCV";
 
 export default function Jumbotron() {
     return (
@@ -23,6 +24,10 @@ export default function Jumbotron() {
                                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 12H5m14 0-4 4m4-4-4-4"/>
                                 </svg>
                         </Link>
+                    </div>
+
+                    <div className="w-full m-5">
+                        <BtnDownloadCV/>
                     </div>
 
                     <div className="w-full m-5">
