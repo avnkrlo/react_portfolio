@@ -4,7 +4,7 @@ import { HiOutlineDocumentDownload } from "react-icons/hi";
 export default function btnDownloadCV() {
     return (
         <Link to={`${import.meta.env.BASE_URL}Aivan Karlo Geronimo.pdf.pdf`} target='_blank' download 
-        className="inline-flex items-center px-5 py-5 text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg center-center hover:text-white sm:ms-4 hover:bg-transparent focus:ring-4 focus:ring-blue-700">
+        className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
             <HiOutlineDocumentDownload/>Download CV
         </Link>
     );
