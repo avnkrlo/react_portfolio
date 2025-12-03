@@ -5,6 +5,8 @@ import GitHubCalendar from "../components/GithubCalendar";
 function Landing() {
   return (
     <div>
+      <title>Home | /avnkrlo</title>
+
       <Jumbotron />
 
       <SkillCards/>

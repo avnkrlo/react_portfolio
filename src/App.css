@@ -3,3 +3,9 @@
 @source "../.flowbite-react/class-list.json";
 @plugin "flowbite/plugin";
 @source "../node_modules/flowbite";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

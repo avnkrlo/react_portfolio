@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 export default function Contact() {
     return (
         <>
+            <title>Contact | /avnkrlo</title>
+            
             <div className="flex flex-col items-center justify-center min-h-screen max-w-7xl mx-auto text-center text-white">
                 <ul className="grid place-content-center pt-8 w-auto">
                     <li className="mb-4">

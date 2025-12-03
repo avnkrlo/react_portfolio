@@ -4,6 +4,8 @@ import AvatarComponent from "../components/AvatarComponent";
 export default function About() {
     return (
         <>
+            <title>About | /avnkrlo</title>
+            
             <div>
                 <div className="flex flex-col items-start min-h-screen max-w-7xl mx-auto">
                     <AvatarComponent/>

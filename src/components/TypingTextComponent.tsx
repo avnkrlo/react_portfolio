@@ -2,7 +2,7 @@ import { motion, useAnimationControls } from "framer-motion";
 import { useEffect, useState } from "react";
 
 function TypingTextComponent({
-  words = ["I'm Aivan Karlo", "a Software Engineer", "an IT Support"],
+  words = ["I'm Aivan Karlo", "Software Engineer", "IT Support"],
   typingSpeed = 200,
   deleteSpeed = 80,
   delayBetweenWords = 1000,
@@ -67,7 +67,7 @@ function TypingTextComponent({
 
   return (
     <div className="bg-transparent">
-      <div className="text-4xl font-mono text-white italic">
+      <div className="text-4xl font- text-white italic">
         {currentText}
         <motion.span animate={controls}>|</motion.span>
       </div>
