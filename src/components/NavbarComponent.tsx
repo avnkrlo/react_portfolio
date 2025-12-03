@@ -7,11 +7,11 @@ export default function NavbarComponent() {
   return (
     <Navbar fluid rounded className="sticky top-0 z-50 bg-white dark:bg-gray-900">
       <NavbarBrand href="/react_portfolio/">
-        <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo" />
+        <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo"/>
       </NavbarBrand>
 
       <div className="flex md:order-2">
-          <Link to="/react_portfolio/booking" className="items-center px-3 py-2 text-md text-center text-gray-900 md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:text-white sm:ms-4"
+          <Link to="/react_portfolio/booking" className="items-center px-1.5 py-2 text-md text-center text-white sm:ms-4"
               >Book a Call
           </Link>
           
