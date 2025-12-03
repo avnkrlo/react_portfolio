@@ -26,7 +26,7 @@ export default function Jumbotron() {
                         </Link>
                     </div>
 
-                    <div className="w-full m-5">
+                    <div className="w-full">
                         <BtnDownloadCV/>
                     </div>
 
