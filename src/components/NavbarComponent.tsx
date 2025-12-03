@@ -13,16 +13,16 @@ export default function NavbarComponent() {
 
         <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
           <NavbarCollapse className="mx-auto">
-            <NavLink to="/react_portfolio/" className={({ isActive }) => `py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white 
-                md:dark:hover:bg-transparent dark:border-gray-700"`}>Home</NavLink>
+            <NavLink to="/react_portfolio/" className={({ isActive }) => `py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" 
+                ${isActive ? "after:w-full text-blue-600" : "after:w-0"}`}>Home</NavLink>
             {/* <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 to="/react_portfolio/work">Work</NavLink> */}
             <NavLink to="/react_portfolio/project" className={({ isActive }) => `py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                `}>Projects</NavLink>
+                ${isActive ? "after:w-full text-blue-600" : "after:w-0"} `}>Projects</NavLink>
             <NavLink to="/react_portfolio/about" className={({ isActive }) => `py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                `}>About</NavLink>
+                ${isActive ? "after:w-full text-blue-600" : "after:w-0"} `}>About</NavLink>
             <NavLink to="/react_portfolio/contact" className={({ isActive }) => `py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
-                `}>Contact</NavLink>
+                ${isActive ? "after:w-full text-blue-600" : "after:w-0"} `}>Contact</NavLink>
           </NavbarCollapse>
         </div>
 
