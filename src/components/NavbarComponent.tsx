@@ -13,8 +13,11 @@ export default function NavbarComponent() {
 
         <div className="absolute left-1/2 transform -translate-x-1/2 hidden md:flex">
           <NavbarCollapse className="mx-auto">
-            <NavLink to="/react_portfolio/" className={({ isActive }) => `py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700" 
-                ${isActive ? "after:w-full text-blue-600" : "after:w-0"}`}>Home</NavLink>
+            <NavLink to="/react_portfolio/" className={({ isActive }) => `relative py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+              after:content-[''] after:absolute after:left-0 after:-bottom-2 after:h-2px after:bg-blue-600 after:transition-all after:duration-300
+              ${isActive ? "after:w-full text-blue-600" : "after:w-0"}`
+              }>Home
+            </NavLink>
             {/* <NavLink className="py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 to="/react_portfolio/work">Work</NavLink> */}
             <NavLink to="/react_portfolio/project" className={({ isActive }) => `py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
