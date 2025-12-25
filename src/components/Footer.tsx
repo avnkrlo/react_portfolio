@@ -70,10 +70,6 @@ export default function Footer() {
                                     <Link to="/react_portfolio/" className="hover:underline">Home</Link>
                                 </li>
 
-                                {/* <li className="mb-4">
-                                    <Link to="/react_portfolio/work" className="hover:underline">Work</Link>
-                                </li> */}
-
                                 <li className="mb-4">
                                     <Link to="/react_portfolio/project" className="hover:underline">Project</Link>
                                 </li>
@@ -93,10 +89,6 @@ export default function Footer() {
 
                                 <li className="mb-4">
                                     <Link to="/react_portfolio/booking" className="hover:underline">Book a Call</Link>
-                                </li>
-
-                                <li className="mb-4">
-                                    <Link to="/react_portfolio/" className="hover:underline">Discord</Link>
                                 </li>
                             </ul>
                         </div>

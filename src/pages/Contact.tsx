@@ -31,39 +31,6 @@ export default function Contact() {
                     </li>
 
                     <li className="mb-4">
-                        <Link to="https://www.sololearn.com/en/profile/486401" target="_blank" rel="noopener noreferrer" 
-                            className="inline-flex items-center px-5 py-5 text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg transition-all duration-300 ease-out hover:bg-white/20 hover:backdrop-blur-lg hover:border-white/50 hover:shadow-lg hover:scale-105
-                                focus:ring-4 focus:ring-blue-700">
-                                <svg className="w-6 h-6 text-gray-800 dark:text-white" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
-                                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-                                    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
-                                    <g id="SVGRepo_iconCarrier">
-                                        <path className="a" d="M20.7143,30.3722c0-3.2261-6.3709-3.6715-6.3709-11.7725S18.8446,9.6954,18.8446,6.55,6.38,7.23,6.38,19.2922,20.7143,33.5983,20.7143,30.3722Z"></path>
-                                        <path className="a" d="M30.3042,27.2168c-3.2261,0-3.6715,6.371-11.7724,6.371S9.6274,29.0865,6.4823,29.0865s.68,12.465,12.742,12.465S33.53,27.2168,30.3042,27.2168Z"></path>
-                                        <path className="a" d="M17.6958,20.8178c3.2261,0,3.6714-6.371,11.7724-6.371s8.9044,4.5013,12.0495,4.5013-.68-12.465-12.742-12.465S14.47,20.8178,17.6958,20.8178Z"></path>
-                                        <path className="a" d="M27.2864,17.6278c0,3.2261,6.371,3.6715,6.371,11.7725s-4.5012,8.9043-4.5012,12.05,12.465-.68,12.465-12.742S27.2864,14.4017,27.2864,17.6278Z"></path>
-                                    </g>
-                                </svg>
-                                <span className="ml-2 text-black dark:text-white">Sololearn</span>
-                        </Link>
-                    </li>
-
-                    <li className="mb-4">
-                        <Link to="https://t.me/avngrnmo" target="_blank" rel="noopener noreferrer" 
-                            className="inline-flex items-center px-5 py-5 text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg transition-all duration-300 ease-out hover:bg-white/20 hover:backdrop-blur-lg hover:border-white/50 hover:shadow-lg hover:scale-105
-                                focus:ring-4 focus:ring-blue-700">
-                                <svg className="w-6 h-6 text-gray-800 dark:text-white" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-                                    <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
-                                    <g id="SVGRepo_iconCarrier">
-                                        <path fillRule="evenodd" clipRule="evenodd" d="M23.1117 4.49449C23.4296 2.94472 21.9074 1.65683 20.4317 2.227L2.3425 9.21601C0.694517 9.85273 0.621087 12.1572 2.22518 12.8975L6.1645 14.7157L8.03849 21.2746C8.13583 21.6153 8.40618 21.8791 8.74917 21.968C9.09216 22.0568 9.45658 21.9576 9.70712 21.707L12.5938 18.8203L16.6375 21.8531C17.8113 22.7334 19.5019 22.0922 19.7967 20.6549L23.1117 4.49449ZM3.0633 11.0816L21.1525 4.0926L17.8375 20.2531L13.1 16.6999C12.7019 16.4013 12.1448 16.4409 11.7929 16.7928L10.5565 18.0292L10.928 15.9861L18.2071 8.70703C18.5614 8.35278 18.5988 7.79106 18.2947 7.39293C17.9906 6.99479 17.4389 6.88312 17.0039 7.13168L6.95124 12.876L3.0633 11.0816ZM8.17695 14.4791L8.78333 16.6015L9.01614 15.321C9.05253 15.1209 9.14908 14.9366 9.29291 14.7928L11.5128 12.573L8.17695 14.4791Z" fill="#ffffff"></path>
-                                    </g>
-                                </svg>
-                                <span className="ml-2 text-black dark:text-white">Telegram</span>
-                        </Link>
-                    </li>
-
-                    <li className="mb-4">
                         <Link to="https://wa.link/4bd27x" target="_blank" rel="noopener noreferrer" 
                             className="inline-flex items-center px-5 py-5 text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg transition-all duration-300 ease-out hover:bg-white/20 hover:backdrop-blur-lg hover:border-white/50 hover:shadow-lg hover:scale-105
                                 focus:ring-4 focus:ring-blue-700">
