@@ -1,4 +1,5 @@
-import { FiGithub, FiExternalLink, FiUsers, FiClock } from "react-icons/fi";
+import { FiGithub, FiUsers, FiClock } from "react-icons/fi";
+// FiExternalLink
 
 type ProjectProps = {
   title?: string;
@@ -26,8 +27,8 @@ export default function ProjectCard({
   collaboratorName2 = "Kimberly Ann David",
   collaboratorRole2 = "Project Management / QA",
   tech = ["Laravel", "PHP", "jQuery", "JavaScript", "AlpineJS", "Vite", "MariaDB"],
-  liveUrl = "https://example.com",
-  repoUrl = "https://github.com/rdsps20/payroll",
+  // liveUrl = "https://example.com",
+  // repoUrl = "https://github.com/rdsps20/payroll",
 }: ProjectProps) {
   const statusStyles =
     status === "Live"
@@ -66,7 +67,7 @@ export default function ProjectCard({
             </div>
 
             {/* Links */}
-            <div className="flex gap-3">
+            {/* <div className="flex gap-3">
               {repoUrl && (
                 <a
                   href={"repoUrl"}
@@ -78,7 +79,7 @@ export default function ProjectCard({
                   Repo
                 </a>
               )}
-              {/* {liveUrl && (
+              {liveUrl && (
                 <a
                   href={liveUrl}
                   target="_blank"
@@ -88,8 +89,8 @@ export default function ProjectCard({
                   <FiExternalLink />
                   Live Demo
                 </a>
-              )} */}
-            </div>
+              )}
+            </div> */}
           </div>
 
           {/* Divider */}
