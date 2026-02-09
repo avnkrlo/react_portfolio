@@ -13,7 +13,7 @@ export default function Footer() {
                         </Link>
                         <ul className="text-gray-500 dark:text-gray-400 font-medium">
                             <li className="mb-4">
-                                <span>Feel free to reach out to me on my socials and my email below.</span>
+                                <span>Feel free to reach out to me on my socials. You may also book me for a call.</span>
                             </li>
                         </ul>
 

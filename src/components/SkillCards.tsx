@@ -3,20 +3,33 @@ import {
   FaJs,
   FaHtml5,
   FaGitAlt,
+  FaVuejs,
+  FaLaravel,
 } from 'react-icons/fa';
 import {
   SiTypescript,
   SiTailwindcss,
   SiVite,
-  SiNextdotjs,
 } from 'react-icons/si';
 
 const skills = [
   {
-    title: 'JavaScript',
-    icon: <FaJs className="text-yellow-400" />,
+    title: 'Laravel',
+    icon: <FaLaravel className="text-red-400" />,
     description:
       'Great knowledge with ES6+, focusing on understanding what happens under the hood.',
+  },
+  {
+    title: 'JavaScript',
+    icon: <FaJs className="text-yellow-200" />,
+    description:
+      'Great knowledge with ES6+, focusing on understanding what happens under the hood.',
+  },
+  {
+    title: 'Vue.js',
+    icon: <FaVuejs className="text-green-400" />,
+    description:
+      'Familiar with many concepts. Principle is to write clean and maintainable code.',
   },
   {
     title: 'React.js',
@@ -47,15 +60,9 @@ const skills = [
     description: 'Modern toolchain. Love the speed and dev experience.',
   },
   {
-    title: 'Next.js',
-    icon: <SiNextdotjs className="text-black dark:text-white" />,
-    description: 'Used in most client projects. Great for SSR and routing.',
-  },
-  {
-    title: 'And more',
+    title: 'Git',
     icon: <FaGitAlt className="text-red-500" />,
-    description:
-      'Git, Styled Components, VSCode, Adobe, Yarn, Bootstrap, and more tools I explore daily.',
+    description: 'Used in most client projects. Great for SSR and routing.',
   },
 ];
 

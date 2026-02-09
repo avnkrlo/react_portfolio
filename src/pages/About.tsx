@@ -6,7 +6,7 @@ export default function About() {
         <>
             <title>About | /avnkrlo</title>
             
-            <div>
+            <div className="max-w-7xl mx-auto pt-24">
                 <div className="flex flex-col items-start min-h-screen max-w-7xl mx-auto">
                     <AvatarComponent/>
                 </div>
