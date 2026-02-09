@@ -1,5 +1,6 @@
-import { FiGithub, FiUsers, FiClock } from "react-icons/fi";
+import { FiUsers, FiClock } from "react-icons/fi";
 // FiExternalLink
+// FiGithub
 
 type ProjectProps = {
   title?: string;
