@@ -35,9 +35,10 @@ export default function AlternateTimeline() {
         </div>
 
         <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
-          <li>Managed digital visitor management system for controlled access and documented system issues.</li>
-          <li>Logged minor support requests and escalated building system malfunctions.</li>
-          <li>Contributed to smooth operations by coordinating with different building teams to ensure high satisfactory rate of building residents.</li>
+          <li>Managed and supported digital visitor management and building systems by registering new and returning visitors, maintaining accurate system records, and enforcing data privacy and information security standards.</li>
+          <li>Logged, categorized, and tracked resident-reported issues using structured support records, performed initial triage, escalated incidents to the appropriate teams, and followed up to ensure timely resolution and closure.</li>
+          <li>Generated, consolidated, and submitted daily operational and system reports to management covering housekeeping and facilities activities for Reflection Towers A & B, ensuring data accuracy and completeness.</li>
+          <li>Conducted verification and access control checks for external real estate agents by validating credentials, confirming unit status via intercom systems, and coordinating with security teams to prevent unauthorized access.</li>
         </ul>
       </VerticalTimelineElement>
 

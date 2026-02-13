@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import Calendar from "../components/Calendar";
+// import Calendar from "../components/Calendar";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -80,14 +80,12 @@ export default function Contact() {
                     </ul>
                 </section>
 
-                <section id="cal-section" className="scroll-mt-12">
+                {/* <section id="cal-section" className="scroll-mt-12">
                     <div className="flex flex-col items-center justify-center min-h-screen max-w-7xl mx-auto text-center text-white">
                         <Calendar/>
                     </div>
-                </section>
+                </section> */}
             </div>
-
-            
         </>
     )
 }
