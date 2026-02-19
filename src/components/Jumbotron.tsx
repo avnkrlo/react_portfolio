@@ -1,23 +1,23 @@
 import { Link } from "react-router-dom";
-import Clipboard from "./Clipboard";
 import Cv from '../assets/cv/Resume - Aivan Karlo Geronimo.pdf';
 
 export default function Jumbotron() {
     return (
-        <section className="bg-fixed bg-gray-700 bg-center bg-no-repeat bg-cover bg-blend-multiply bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')]">
-            <div className="flex flex-col items-center min-h-screen max-w-7xl px-4 py-24 lg:py-56 mx-auto text-center">
-                <p className="mb-4 text-4xl font-extrabold text-white uppercase sm:text-3xl md:text-4xl lg:text-5xl">
+        <section id="about-section" className="-mt-20 pt-20 bg-fixed bg-gray-700 bg-center bg-no-repeat bg-cover bg-blend-multiply bg-[url('https://flowbite.s3.amazonaws.com/docs/jumbotron/conference.jpg')]">
+            
+            <div className="flex flex-col place-items-start min-h-screen pt-24 max-w-7xl lg:py-56 mx-auto">
+                <p className="text-4xl font-extrabold text-white uppercase sm:text-3xl md:text-4xl lg:text-5xl">
                     Hi, I'm Aivan
                 </p>
                 <p className="text-xl text-white sm:text-2xl md:text-3xl lg:text-4xl">
-                    Aspiring software engineer, with a little bit of experience in creating software using C# and web development using Laravel & PHP. Now I'm trying to explore other stack, this portfolio I build with TypeScript and React.
+                    Aspiring software engineer, with a little bit of experience in creating software using C# and web development using Laravel & PHP. Now I'm trying to explore other stack.
                 </p>
 
                 <p className="text-xl text-white sm:text-2xl md:text-3xl lg:text-4xl mt-10">
-                    My hobbies are mainly, playing computer games. But I love, travelling, playing with my pets, and hopefully "running" soon.
+                    My hobbies are mainly, playing computer games. But I love travelling, playing with my pets, and hopefully "running" soon.
                 </p>
 
-                <div className="flex items-center p-3">
+                <div className="flex items-center pt-3">
                     <div className="w-full">
                         <Link to="mailto:aivan.karlo28@gmail.com?subject=Let%27s catch up and talk about opportunity!" type="button" 
                             className="flex items-center justify-center gap-1.5 w-45 h-17 px-5 whitespace-nowrap text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg transition-all duration-300 ease-out hover:bg-white/20 hover:backdrop-blur-lg hover:border-white/50 hover:shadow-lg hover:scale-105
@@ -39,10 +39,6 @@ export default function Jumbotron() {
                                 </svg>
                                 <span className="ml-1.5 text-black dark:text-white">View My CV</span>
                         </Link>
-                    </div>
-
-                    <div className="w-full">
-                        <Clipboard/>
                     </div>
                 </div>
             </div>

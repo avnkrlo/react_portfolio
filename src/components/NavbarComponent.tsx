@@ -1,5 +1,4 @@
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarToggle } from "flowbite-react";
-import { NavLink } from "react-router-dom";
 import logo from '../assets/AKG-ICON.png'
 
 export default function NavbarComponent() {
@@ -12,51 +11,38 @@ export default function NavbarComponent() {
   };
 
   return (
-    <Navbar fluid rounded className="sticky top-0 z-50 bg-white dark:bg-gray-900">
-        <NavbarBrand href="/react_portfolio/">
-          <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo"/>
+    <Navbar fluid rounded className="sticky top-6 z-50 mx-auto w-[95%] max-w-4xl rounded-full bg-white/70 dark:bg-gray-900/70 backdrop-blur-xl shadow-lg shadow-black/10 border border-white/20">
+        <NavbarBrand>
+          <button onClick={() => scrollToSection("about-section")}>
+            <img src={logo} className="mr-3 h-6 sm:h-9" alt="AKG Logo"/>
+          </button>
         </NavbarBrand>
 
         <div className="flex items-center gap-3 md:order-2">
-          <div className="hidden md:flex items-center gap-4">
-              <button onClick={() => scrollToSection("contact-section")} className="inline-flex items-center px-4 py-2 rounded-full
-                text-sm font-medium text-white/80
-                transition-all duration-300
-              hover:text-white hover:bg-white/10">Book a Call
-              </button>
-          </div>
             <NavbarToggle />
         </div>
 
-        <div className="w-full md:absolute md:left-1/2 md:-translate-x-1/2 md:flex md:justify-center">
+        <div className="hidden md:flex items-center gap-6 mx-auto">
           <NavbarCollapse className="w-full md:w-auto md:overflow-visible">
-            <button onClick={() => scrollToSection("home-section")} className="relative py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
-              Home
+            <button onClick={() => scrollToSection("about-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
+              About Me
             </button>
             
-            <button onClick={() => scrollToSection("skill-section")} className="relative py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+            <button onClick={() => scrollToSection("skill-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
               Skills
             </button>
 
-            <button onClick={() => scrollToSection("project-section")} className="relative py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+            <button onClick={() => scrollToSection("project-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
               Projects
             </button>
 
-            <button onClick={() => scrollToSection("experience-section")} className="relative py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+            <button onClick={() => scrollToSection("experience-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
               Experience
             </button>
 
-            <button onClick={() => scrollToSection("contact-section")} className="relative py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+            <button onClick={() => scrollToSection("contact-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
               Contact
             </button>
-
-            <div className="mt-3 flex flex-col gap-3 md:hidden">
-                <button onClick={() => scrollToSection("contact-section")} className="inline-flex items-center px-4 py-2 rounded-full
-                  text-sm font-medium text-white/80
-                  transition-all duration-300
-                  hover:text-white hover:bg-white/10">Book a Call
-                </button>
-            </div>
           </NavbarCollapse>
         </div>
     </Navbar>
