@@ -4,6 +4,7 @@ import { Work, School, Star } from '@mui/icons-material';
 import ConvergeLogo from '../assets/work_logo/converge-logo.jpg';
 import KhidmahLogo from '../assets/work_logo/khidmah-logo.jpg';
 import MonheimLogo from '../assets/work_logo/monheim-logo.jpg';
+import CckLogo from '../assets/work_logo/cck-logo.png';
 import VnlbrwLogo from '../assets/work_logo/vnl-brw-logo.png';
 import OlfuLogo from '../assets/work_logo/olfu-logo.jpg';
 
@@ -58,19 +59,17 @@ export default function AlternateTimeline() {
       >
         <div className="flex flex-col items-center mb-4">
           <img
-            src={MonheimLogo}
-            alt="monheim"
+            src={CckLogo}
+            alt="cck"
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
-          <h3 className="text-lg sm:text-xl font-semibold text-white">IT Technical Support</h3>
-          <p className="italic text-gray-400 text-sm sm:text-base">Taytay, Philippines</p>
+          <h3 className="text-lg sm:text-xl font-semibold text-white">Software Engineer</h3>
+          <p className="italic text-gray-400 text-sm sm:text-base">Pasig, Philippines</p>
         </div>
         <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
-          <li>Provided Tier 1 and Tier 2 desktop support for 200+ employees, resolving 10–20 service tickets daily.</li>
-          <li>Set up and replace faulty desktop hardware including SSDs, RAM, power supplies, hard drives, motherboards, monitors, mice, keyboards, printers and cables.</li>
-          <li>Coordinated with vendors for upcoming projects system requirements and warranty claims.</li>
-          <li>Delivered onboarding and IT orientation for 50+ new users, email, and user accounts.</li>
-          <li>Supported Microsoft 365 applications (Outlook, Teams, Excel), achieving a 95% end-user satisfaction rate.</li>
+          <li>Collaborated with a small development team to complete an internal Inventory Management System, taking over responsibilities after the original lead developer resigned.</li>
+          <li>Developed a student management system for Manila-Japanese School (MJS), enabling staff to efficiently: Filter and manage student data by course enrollment, academic performance, and payment status</li>
+          <li>Built a desktop application using C# (.NET) with core CRUD functionality, including: File upload, data viewing, updating, searching, and exporting and barcode scanner integration to automatically retrieve and display system records, improving data lookup efficiency.</li>
         </ul>
       </VerticalTimelineElement>
 
