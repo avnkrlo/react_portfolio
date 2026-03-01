@@ -1,5 +1,7 @@
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarToggle } from "flowbite-react";
 import logo from '../assets/AKG-ICON.png'
+import { Link } from 'react-router-dom';
+import Resume from '../assets/cv/Resume - Aivan Karlo Geronimo.pdf';
 
 export default function NavbarComponent() {
   const scrollToSection = (id: string): void => {
@@ -43,6 +45,10 @@ export default function NavbarComponent() {
             <button onClick={() => scrollToSection("contact-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
               Contact
             </button>
+
+            <Link to={ Resume } target="_blank" className="border relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
+              Resume
+            </Link>
           </NavbarCollapse>
         </div>
     </Navbar>

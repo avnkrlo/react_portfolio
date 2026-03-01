@@ -20,7 +20,6 @@ type ProjectProps = {
 export default function ProjectCard({
   title = "HRIS",
   tagline = "Personal Collaborative Project",
-  description = "An HR management tool where this system makes the process of HR much more smoother, productive and accurate.",
   status = "In Progress",
   yourRole = ["Backend (PHP, Laravel, JavaScript, AlpineJS)", "API integration", "Database Management", "Git Version Control"],
   collaboratorName = "Rodel Junia",
@@ -62,8 +61,8 @@ export default function ProjectCard({
               </div>
 
               <p className="mt-2 text-sm text-white/70">{tagline}</p>
-              <p className="mt-4 max-w-2xl text-base text-white/85 leading-relaxed">
-                {description}
+              <p className="mt-4 max-w-screen text-white/85">
+                An HR management tool where this system makes the process of HR much more smoother, productive and accurate.
               </p>
             </div>
 
@@ -94,8 +93,7 @@ export default function ProjectCard({
             </div> */}
           </div>
 
-          {/* Divider */}
-          <div className="my-6 h-px w-full bg-white/10" />
+          <div className="my-6 w-full" />
 
           {/* Content grid */}
           <div className="grid gap-6 lg:grid-cols-3">
@@ -119,23 +117,14 @@ export default function ProjectCard({
                 Collaboration
               </h4>
               <p className="mt-3 text-sm text-white/80">
-                Built with{" "}
                 <span className="font-semibold text-white">{collaboratorName}</span>{" "}
                 — <span className="text-white/70">{collaboratorRole}</span>
               </p>
 
               <p className="mt-3 text-sm text-white/80">
-                and{" "}
                 <span className="font-semibold text-white">{collaboratorName2}</span>{" "}
                 — <span className="text-white/70">{collaboratorRole2}</span>
               </p>
-
-              <div className="mt-4 rounded-xl border border-white/10 bg-black/20 p-4">
-                {/* <p className="text-xs text-white/60">Tip</p> */}
-                <p className="mt-1 text-sm text-white/80">
-                  My friend had this dream and then started to build it, he then invited me midway when the system starts to grow bigger and bigger. Currently we are a team of 3. Me, my friend Rodel, and our previous QA and Front-End Team Leader Ms. Kimberly
-                </p>
-              </div>
             </div>
 
             {/* Tech stack */}
@@ -162,12 +151,6 @@ export default function ProjectCard({
                 </button>
               </div> */}
             </div>
-          </div>
-
-          {/* Footer line */}
-          <div className="mt-6 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between text-xs text-white/60">
-            <p>Last updated: Jan 2026</p>
-            {/* <p>Recruiter-friendly: Clear role + collaboration + links</p> */}
           </div>
         </div>
       </div>

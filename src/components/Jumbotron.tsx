@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Cv from '../assets/cv/Resume - Aivan Karlo Geronimo.pdf';
 
 export default function Jumbotron() {
     return (
@@ -30,7 +29,7 @@ export default function Jumbotron() {
                         </Link>
                     </div>
 
-                    <div className="w-full m-3">
+                    {/* <div className="w-full m-3">
                         <Link to={Cv} target='_blank'
                             className="flex items-center justify-center gap-1.5 w-45 h-17 px-5 whitespace-nowrap text-md text-left text-white bg-blue-700 border border-blue-500 rounded-lg transition-all duration-300 ease-out hover:bg-white/20 hover:backdrop-blur-lg hover:border-white/50 hover:shadow-lg hover:scale-105
                                 focus:ring-4 focus:ring-blue-700">
@@ -39,7 +38,7 @@ export default function Jumbotron() {
                                 </svg>
                                 <span className="ml-1.5 text-black dark:text-white">View My CV</span>
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

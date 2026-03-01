@@ -5,7 +5,6 @@ import {
   siPhp,
   siJavascript,
   siReact,
-  siVuedotjs,
   siTypescript,
   siTailwindcss,
   siMysql,
@@ -24,7 +23,6 @@ export const skills = [
   { name: "JavaScript", icon: siJavascript },
   { name: "TypeScript", icon: siTypescript },
   { name: "React", icon: siReact },
-  { name: "Vue.js", icon: siVuedotjs },
   { name: "Node.js", icon: siNodedotjs },
   { name: "Tailwind CSS", icon: siTailwindcss },
   { name: "MySQL", icon: siMysql },
@@ -49,7 +47,7 @@ export default function Skills() {
                         transition hover:-translate-y-1"
             >
             <SkillIconsComponent icon={skill.icon} />
-            <span className="text-sm font-medium">{skill.name}</span>
+            <span className="text-sm font-medium text-black">{skill.name}</span>
             </div>
         ))}
     </div>
