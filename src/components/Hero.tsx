@@ -17,11 +17,13 @@ export default function Hero() {
           />
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative inline-flex rounded-full">
-                <div className="inline-flex rounded-full px-4 py-1 text-sm bg-green-400/10 text-green-400 ring-1 ring-green-500/40 backdrop-blur-sm animate-breathe">
-                    Available for full time roles
-                </div>
+          <div className="flex rounded-full place-content-center">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/5 text-gray-300 text-sm font-medium backdrop-blur-md">
+              <span className="relative flex items-center justify-center h-2.5 w-2.5">
+                <span className="absolute h-full w-full rounded-full bg-green-400 opacity-70 animate-pulse-out"></span>
+                <span className="relative h-2 w-2 rounded-full bg-green-500"></span>
+              </span>
+              Available for work
             </div>
           </div>
           <div className="text-justify">

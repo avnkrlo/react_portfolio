@@ -1,6 +1,5 @@
 import NavbarComponent from "./components/NavbarComponent";
 import { Outlet } from "react-router-dom";
-// import Jumbotron from "./components/Jumbotron";
 import Hero from "./components/Hero";
 
 function App() {

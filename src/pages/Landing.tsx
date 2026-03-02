@@ -15,7 +15,7 @@ export default function Landing() {
 
       <section id="skill-section" className="scroll-mt-42">
         <div className="max-w-7xl mx-auto pt-12">
-          <h1 className="text-4xl font-bold text-white">Skills & Technologies</h1>
+          <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Skills & Technologies</h1>
 
           <Skills/>
         </div>
@@ -23,7 +23,7 @@ export default function Landing() {
 
       <section id="project-section" className="scroll-mt-24">
         <div className="max-w-7xl mx-auto pt-12">
-          <h1 className="text-4xl font-bold text-white">Projects</h1>
+          <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Projects</h1>
 
           <div className="mt-10">
               <ProjectCard/>
@@ -33,7 +33,7 @@ export default function Landing() {
 
       <section id="experience-section" className="scroll-mt-24">
         <div className="max-w-7xl mx-auto pt-12">
-          <h1 className="text-4xl font-bold text-white">Experience</h1>
+          <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Experience</h1>
 
           <section className="flex flex-col items-center justify-center min-h-screen max-w-7xl mx-auto mt-10 text-center text-white">
             <AlternateTimeline/>
@@ -43,7 +43,7 @@ export default function Landing() {
 
       <section id="contact-section" className="scroll-mt-24">
         <div className="max-w-7xl mx-auto pt-12">
-          <h1 className="text-4xl font-bold text-white">Contact</h1>
+          <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Contact</h1>
 
             <section className="flex flex-col items-center justify-center max-w-7xl mx-auto mt-10 text-center text-white">
                 <Calendar/>
