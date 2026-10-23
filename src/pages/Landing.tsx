@@ -13,7 +13,7 @@ export default function Landing() {
         {/* <Jumbotron /> */}
       </section>
 
-      <section id="skill-section" className="scroll-mt-42">
+      <section id="skill-section" className="scroll-mt-32">
         <div className="max-w-7xl mx-auto pt-12">
           <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Skills & Technologies</h1>
 
@@ -21,7 +21,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section id="project-section" className="scroll-mt-24">
+      <section id="project-section" className="scroll-mt-28">
         <div className="max-w-7xl mx-auto pt-12">
           <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Projects</h1>
 
@@ -31,7 +31,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section id="experience-section" className="scroll-mt-24">
+      <section id="experience-section" className="scroll-mt-28">
         <div className="max-w-7xl mx-auto pt-12">
           <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Experience</h1>
 
@@ -41,7 +41,7 @@ export default function Landing() {
         </div>
       </section>
 
-      <section id="contact-section" className="scroll-mt-24">
+      <section id="contact-section" className="scroll-mt-28">
         <div className="max-w-7xl mx-auto pt-12">
           <h1 className="text-4xl font-bold text-white sm:px-6 md:px-6">Contact</h1>
 

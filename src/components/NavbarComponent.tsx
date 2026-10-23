@@ -2,8 +2,35 @@ import { Navbar, NavbarBrand, NavbarCollapse, NavbarToggle } from "flowbite-reac
 import logo from '../assets/AKG-ICON.png'
 import { Link } from 'react-router-dom';
 import Resume from '../assets/cv/AIVAN_KARLO_GERONIMO.pdf';
+import { useState } from "react";
 
 export default function NavbarComponent() {
+  const navButtonClass =
+    "relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10";
+  const [activeSection, setActiveSection] = useState("about-section");
+  const navItems = [
+      {
+        Label: "About Me",
+        Section: "about-section"
+      }, 
+      {
+        Label: "Skills",
+        Section: "skill-section",
+      },
+      {
+        Label: "Projects",
+        Section: "project-section",
+      },
+      {
+        Label: "Experience",
+        Section: "experience-section",
+      },
+      {
+        Label: "Contact",
+        Section: "contact-section",
+      },
+    ];
+
   const scrollToSection = (id: string): void => {
     const section: HTMLElement | null = document.getElementById(id);
 
@@ -25,27 +52,26 @@ export default function NavbarComponent() {
         </div>
 
         <NavbarCollapse className="w-full md:w-auto md:overflow-visible md:mt-0 md:flex-row md:bg-transparent md:p-0 md:shadow-none">
-          <button onClick={() => scrollToSection("about-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
-            About Me
-          </button>
-          
-          <button onClick={() => scrollToSection("skill-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
-            Skills
-          </button>
+          {navItems.map((item) => 
+            <button
+              key={item.Section}
+              onClick={() => { 
+                setActiveSection(item.Section);
+                scrollToSection(item.Section);
+              }}
+              className={`relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300
+                ${
+                  activeSection == item.Section
+                  ? "bg-indigo-500 text-white"
+                  : "text-gray-800 dark:text-gray-200 hover:bg-gray-900/5 dark:hover:bg-white/10"
+                }
+                `}
+              >
+                {item.Label}
+            </button>
+          )}
 
-          <button onClick={() => scrollToSection("project-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
-            Projects
-          </button>
-
-          <button onClick={() => scrollToSection("experience-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
-            Experience
-          </button>
-
-          <button onClick={() => scrollToSection("contact-section")} className="relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
-            Contact
-          </button>
-
-          <Link to={ Resume } target="_blank" className="mx-auto border text-center relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10">
+          <Link to={ Resume } target="_blank" className={"mx-auto border text-center relative px-4 py-2 text-sm font-medium text-gray-800 dark:text-gray-200 rounded-full transition-all duration-300 hover:bg-gray-900/5 dark:hover:bg-white/10"}>
             Resume
           </Link>
         </NavbarCollapse>

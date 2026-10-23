@@ -114,11 +114,19 @@ export default function AlternateTimeline() {
           <p className="italic text-gray-300 text-sm sm:text-base">Pasig, Philippines</p>
         </div>
         <ul className="list-disc pl-5 mt-3 space-y-2 text-white text-left text-sm sm:text-base">
-          <li>Created and responded to 50–100 service requests daily related to internet connectivity, whether slow, intermittent or no connection.</li>
-          <li>Accurately logged incidents, attached photos of monitoring taken, and escalated to proper team via OTRS and Viber if customer issue persists.</li>
-          <li>Communicated emergency outages full details to affected clients including actions taken by field engineers and estimated time of restoration.</li>
-          <li>Collaborated with field engineers and NOC to dispatch support and restore fiber internet services, reducing downtime by 25%.</li>
-          <li>Assisting clients through the standard documented troubleshooting procedure, improving first-call resolution rates.</li>
+          <li>Managed 50–100 enterprise support tickets daily, increasing to 150–200 tickets during
+            major outages, while consistently meeting SLA targets and maintaining clear
+            communication with customers and internal stakeholders.
+          </li>
+          <li>Performed first-level diagnostics for enterprise connectivity issues using SolarWinds to
+            monitor OLP (Optical Line Profile) status and PuTTY for bandwidth verification, validating
+            service conditions and identifying potential network issues before escalation.
+          </li>
+          <li>Acted as the primary liaison between enterprise customers, the Network Operations
+            Center (NOC), and Field Engineers by gathering technical details, documenting incidents,
+            and coordinating resolutions for network faults, including bandwidth discrepancies and
+            LOS (Loss of Signal) cases requiring onsite intervention.
+          </li>
         </ul>
       </VerticalTimelineElement>
 
