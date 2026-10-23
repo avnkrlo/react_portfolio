@@ -7,7 +7,7 @@ import AlternateTimeline from "../components/AlternateTimeline";
 export default function Landing() {
   return (
     <div className="overflow-x-hidden">
-      <title>/avnkrlo Portfolio</title>
+      <title>Aivan Geronimo | Software Engineer</title>
 
       <section id="about-section">
         {/* <Jumbotron /> */}

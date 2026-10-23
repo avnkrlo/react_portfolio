@@ -1,6 +1,7 @@
 import NavbarComponent from "./components/NavbarComponent";
 import { Outlet } from "react-router-dom";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <main className="grow">
           <Outlet/>
         </main>
+      <Footer/>
     </div>
   );
 }

@@ -15,15 +15,15 @@ export default function AlternateTimeline() {
         contentStyle={{
           background: '#0f172a',
           color: '#f8fafc',
-          textAlign: 'center',
+          textAlign: 'start',
           padding: '2rem',
           border: '1px solid #334155',
           borderRadius: '0.75rem',
         }}
-        contentArrowStyle={{ borderRight: '7px solid #0f172a' }}
-        date={<span style={{ position: 'relative', left: '-2rem', top: '-0.25rem' }}>May 2025 - Present</span>}
+        contentArrowStyle={{ borderRight: '7px solid #be185d' }}
+        date="May 2025 - Present"
         iconStyle={{ background: '#1eaf56ff', color: '#fff' }}
-        icon={<Work fontSize="small" />}
+        icon={<Work/>}
       >
         <div className="flex flex-col items-center mb-4">
           <img
@@ -32,14 +32,22 @@ export default function AlternateTimeline() {
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
           <h3 className="text-lg sm:text-xl font-semibold text-white">Concierge</h3>
-          <p className="italic text-gray-400 text-sm sm:text-base">Abu Dhabi, United Arab Emirates</p>
+          <p className="italic text-gray-300 text-sm sm:text-base">Abu Dhabi, United Arab Emirates</p>
         </div>
 
-        <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
-          <li>Managed and supported digital visitor management and building systems by registering new and returning visitors, maintaining accurate system records, and enforcing data privacy and information security standards.</li>
-          <li>Logged, categorized, and tracked resident-reported issues using structured support records, performed initial triage, escalated incidents to the appropriate teams, and followed up to ensure timely resolution and closure.</li>
-          <li>Generated, consolidated, and submitted daily operational and system reports to management covering housekeeping and facilities activities for Reflection Towers A & B, ensuring data accuracy and completeness.</li>
-          <li>Conducted verification and access control checks for external real estate agents by validating credentials, confirming unit status via intercom systems, and coordinating with security teams to prevent unauthorized access.</li>
+        <ul className="list-disc pl-5 mt-3 space-y-2 text-white text-left text-sm sm:text-base">
+          <li>Managed front desk operations by assisting minimum of 120 visitors, deliveries, 
+            contractors, and guests daily, ensuring smooth check-ins, apartment bookings, and 
+            service requests while maintaining professional customer experience.
+          </li>
+          <li>Maintained 98% accurate visitor, guest, and delivery records in compliance with company 
+            policies and data privacy standards, minimizing documentation errors and ensuring 
+            efficient tracking.
+          </li>
+          <li>Coordinated maintenance requests, resident concerns, and service provider access, 
+            monitoring cases through completion to support timely issue resolution and high resident 
+            satisfaction.
+          </li>
         </ul>
       </VerticalTimelineElement>
 
@@ -52,10 +60,10 @@ export default function AlternateTimeline() {
           border: '1px solid #334155',
           borderRadius: '0.75rem',
         }}
-        contentArrowStyle={{ borderRight: '7px solid #0f172a' }}
+        contentArrowStyle={{ borderRight: '7px solid #be185d' }}
         date="January 2023 - February 2025"
         iconStyle={{ background: '#1e40af', color: '#fff' }}
-        icon={<Work fontSize="small" />}
+        icon={<Work/>}
       >
         <div className="flex flex-col items-center mb-4">
           <img
@@ -64,12 +72,21 @@ export default function AlternateTimeline() {
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
           <h3 className="text-lg sm:text-xl font-semibold text-white">Software Engineer</h3>
-          <p className="italic text-gray-400 text-sm sm:text-base">Pasig, Philippines</p>
+          <p className="italic text-gray-300 text-sm sm:text-base">Pasig, Philippines</p>
         </div>
-        <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
-          <li>Collaborated with a small development team to complete an internal Inventory Management System, taking over responsibilities after the original lead developer resigned.</li>
-          <li>Developed a student management system for Manila-Japanese School (MJS), enabling staff to efficiently: Filter and manage student data by course enrollment, academic performance, and payment status</li>
-          <li>Built a desktop application using C# (.NET) with core CRUD functionality, including: File upload, data viewing, updating, searching, and exporting and barcode scanner integration to automatically retrieve and display system records, improving data lookup efficiency.</li>
+        <ul className="list-disc pl-5 mt-3 space-y-2 text-white text-left text-sm sm:text-base">
+          <li>Collaborated in the development of an internal Inventory Management System using 
+            Laravel, PHP, JavaScript, and MySQL, implementing modules for company asset tracking, 
+            management, and reporting dashboards.
+          </li>
+          <li>Developed an internal administrative dashboard using Google Apps Script and Google 
+            Sheets, adding search, filtering, and multilingual features for 500+ student records, 
+            reducing manual lookup time by approximately 40%.
+          </li>
+          <li>Built a C# (.NET) desktop application with Excel import/export and barcode scanner 
+            integration, allowing staff to quickly retrieve student records and update payment 
+            statuses while replacing manual lookup processes.
+          </li>
         </ul>
       </VerticalTimelineElement>
 
@@ -77,15 +94,15 @@ export default function AlternateTimeline() {
         contentStyle={{
           background: '#0f172a',
           color: '#f8fafc',
-          textAlign: 'center',
+          textAlign: 'start',
           padding: '2rem',
           border: '1px solid #334155',
           borderRadius: '0.75rem',
         }}
-        contentArrowStyle={{ borderRight: '7px solid #0f172a' }}
-        date={<span style={{ position: 'relative', left: '-2rem', top: '-0.25rem' }}>October 2021 - January 2023</span>}
+        contentArrowStyle={{ borderRight: '7px solid #be185d' }}
+        date="October 2021 - January 2023"
         iconStyle={{ background: '#1e40af', color: '#fff' }}
-        icon={<Work fontSize="small" />}
+        icon={<Work/>}
       >
         <div className="flex flex-col items-center mb-4">
           <img
@@ -94,9 +111,9 @@ export default function AlternateTimeline() {
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
           <h3 className="text-lg sm:text-xl font-semibold text-white">L1 Enterprise Support Engineer</h3>
-          <p className="italic text-gray-400 text-sm sm:text-base">Pasig, Philippines</p>
+          <p className="italic text-gray-300 text-sm sm:text-base">Pasig, Philippines</p>
         </div>
-        <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
+        <ul className="list-disc pl-5 mt-3 space-y-2 text-white text-left text-sm sm:text-base">
           <li>Created and responded to 50–100 service requests daily related to internet connectivity, whether slow, intermittent or no connection.</li>
           <li>Accurately logged incidents, attached photos of monitoring taken, and escalated to proper team via OTRS and Viber if customer issue persists.</li>
           <li>Communicated emergency outages full details to affected clients including actions taken by field engineers and estimated time of restoration.</li>
@@ -114,21 +131,21 @@ export default function AlternateTimeline() {
           border: '1px solid #334155',
           borderRadius: '0.75rem',
         }}
-        contentArrowStyle={{ borderRight: '7px solid #0f172a' }}
+        contentArrowStyle={{ borderRight: '7px solid #be185d' }}
         date="September 2020 - March 2021"
         iconStyle={{ background: '#1e40af', color: '#fff' }}
-        icon={<Work fontSize="small" />}
+        icon={<Work/>}
       >
-        <div className="flex flex-col items-center mb-4">
+        <div className="flex flex-col items-center mb-4 text-white">
           <img
             src={VnlbrwLogo}
             alt="vnlbrw"
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
-          <h3 className="text-lg sm:text-xl font-semibold text-white">Barista/Service Crew</h3>
-          <h4 className="italic text-gray-400 text-sm sm:text-base">Pasig, Philippines</h4>
+          <h3 className="text-lg sm:text-xl font-semibold">Barista/Service Crew</h3>
+          <h4 className="italic text-sm sm:text-base">Pasig, Philippines</h4>
         </div>
-        <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
+        <ul className="list-disc pl-5 mt-3 space-y-2 text-white text-left text-sm sm:text-base">
           <li>Managing supplies strictly ensuring first in, first out & coordinating with the shop owner for low level supplies.</li>
           <li>Take customer orders, suggests best sellers, prepare food & specialty beverages.</li>
           <li>Handles cash and process payments accurately.</li>
@@ -140,15 +157,15 @@ export default function AlternateTimeline() {
         contentStyle={{
           background: '#0f172a',
           color: '#f8fafc',
-          textAlign: 'center',
+          textAlign: 'start',
           padding: '2rem',
           border: '1px solid #334155',
           borderRadius: '0.75rem',
         }}
         contentArrowStyle={{ borderRight: '7px solid #be185d' }}
-        date={<span style={{ position: 'relative', left: '-2rem', top: '-0.25rem' }}>March 2020</span>}
+        date='March 2020'
         iconStyle={{ background: '#be185d', color: '#fff' }}
-        icon={<School />}
+        icon={<School/>}
       >
         <div className="flex flex-col items-center mb-4">
           <img
@@ -173,7 +190,7 @@ export default function AlternateTimeline() {
         contentArrowStyle={{ borderRight: '7px solid #be185d' }}
         date="July 2019 - September 2019"
         iconStyle={{ background: '#be185d', color: '#fff' }}
-        icon={<School />}
+        icon={<School/>}
       >
         <div className="flex flex-col items-center mb-4">
           <img
@@ -181,8 +198,8 @@ export default function AlternateTimeline() {
             alt="monheim"
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
-          <h3 className="text-lg sm:text-xl font-semibold text-white">IT - Internship</h3>
-          <h4 className="italic text-gray-400 text-sm sm:text-base">Taytay, Rizal, Philippines</h4>
+          <h3 className="text-lg sm:text-xl font-semibold text-white">IT Staff - Internship</h3>
+          <h4 className="italic text-gray-300 text-sm sm:text-base">Taytay, Rizal, Philippines</h4>
         </div>
         <ul className="list-disc pl-5 mt-3 space-y-2 text-gray-300 text-left text-sm sm:text-base">
           <li>Assisting users with hardware and software issues, including troubleshooting problems in person.</li>
@@ -197,15 +214,15 @@ export default function AlternateTimeline() {
         contentStyle={{
           background: '#0f172a',
           color: '#f8fafc',
-          textAlign: 'center',
+          textAlign: 'start',
           padding: '2rem',
           border: '1px solid #334155',
           borderRadius: '0.75rem',
         }}
         contentArrowStyle={{ borderRight: '7px solid #be185d' }}
-        date={<span style={{ position: 'relative', left: '-2rem', top: '-0.25rem' }}>March 2015</span>}
+        date='March 2015'
         iconStyle={{ background: '#be185d', color: '#fff' }}
-        icon={<School />}
+        icon={<School/>}
       >
         <div className="flex flex-col items-center mb-4">
           <img
@@ -214,13 +231,13 @@ export default function AlternateTimeline() {
             className="w-20 sm:w-24 h-auto object-contain rounded mb-2 drop-shadow-md brightness-125"
           />
           <h3 className="text-lg sm:text-xl font-semibold text-white">Bachelor of Science in Information Technology</h3>
-          <h4 className="italic text-gray-400 text-sm sm:text-base">Our Lady of Fatima University - Antipolo Campus</h4>
+          <h4 className="italic text-gray-300 text-sm sm:text-base">Our Lady of Fatima University - Antipolo Campus</h4>
         </div>
       </VerticalTimelineElement>
 
       <VerticalTimelineElement
         iconStyle={{ background: '#10b981', color: '#fff' }}
-        icon={<Star />}
+        icon={<Star/>}
       />
     </VerticalTimeline>
   );

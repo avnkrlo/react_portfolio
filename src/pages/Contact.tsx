@@ -17,8 +17,6 @@ export default function Contact() {
 
     return (
         <>
-            <title>Contact | /avnkrlo</title>
-            
             <div className="max-w-7xl mx-auto pt-24">
                 <section className="flex flex-col items-center text-center pt-16">
                     <ul className="space-y-4">

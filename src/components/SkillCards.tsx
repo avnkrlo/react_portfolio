@@ -16,53 +16,38 @@ const skills = [
   {
     title: 'Laravel',
     icon: <FaLaravel className="text-red-400" />,
-    description:
-      'Great knowledge with ES6+, focusing on understanding what happens under the hood.',
   },
   {
     title: 'JavaScript',
     icon: <FaJs className="text-yellow-200" />,
-    description:
-      'Great knowledge with ES6+, focusing on understanding what happens under the hood.',
   },
   {
     title: 'Vue.js',
     icon: <FaVuejs className="text-green-400" />,
-    description:
-      'Familiar with many concepts. Principle is to write clean and maintainable code.',
   },
   {
     title: 'React.js',
     icon: <FaReact className="text-cyan-400" />,
-    description:
-      'Familiar with many concepts. Principle is to write clean and maintainable code.',
   },
   {
     title: 'HTML/CSS/SASS',
     icon: <FaHtml5 className="text-orange-500" />,
-    description:
-      'Designs that encourage user trust. Focus on pleasing and effective UI.',
   },
   {
     title: 'Tailwind',
     icon: <SiTailwindcss className="text-sky-400" />,
-    description: 'Go-to CSS framework for styling modern web apps.',
   },
   {
     title: 'TypeScript',
     icon: <SiTypescript className="text-blue-500" />,
-    description:
-      '"Fix bugs in development, not in production." Main language for new projects.',
   },
   {
     title: 'Vite',
     icon: <SiVite className="text-purple-500" />,
-    description: 'Modern toolchain. Love the speed and dev experience.',
   },
   {
     title: 'Git',
     icon: <FaGitAlt className="text-red-500" />,
-    description: 'Used in most client projects. Great for SSR and routing.',
   },
 ];
 
@@ -83,9 +68,6 @@ export default function SkillsSection() {
             <h3 className="text-xl font-semibold mb-2 text-gray-900 dark:text-white">
               {skill.title}
             </h3>
-            <p className="text-sm text-gray-700 dark:text-gray-300">
-              {skill.description}
-            </p>
           </div>
         ))}
       </div>
