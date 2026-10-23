@@ -1,7 +1,7 @@
 import { Navbar, NavbarBrand, NavbarCollapse, NavbarToggle } from "flowbite-react";
 import logo from '../assets/AKG-ICON.png'
 import { Link } from 'react-router-dom';
-import Resume from '../assets/cv/Resume - Aivan Karlo Geronimo.pdf';
+import Resume from '../assets/cv/AIVAN_KARLO_GERONIMO.pdf';
 
 export default function NavbarComponent() {
   const scrollToSection = (id: string): void => {
